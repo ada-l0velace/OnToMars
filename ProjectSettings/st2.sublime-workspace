@@ -1,0 +1,481 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"item",
+				"items"
+			],
+			[
+				"r",
+				"Rigidbody"
+			],
+			[
+				"m",
+				"m_rigidbody"
+			],
+			[
+				"lock",
+				"lockYAxis"
+			],
+			[
+				"Res",
+				"resources"
+			],
+			[
+				"u",
+				"Upgrade"
+			],
+			[
+				"F",
+				"FiringCannon"
+			],
+			[
+				"Gam",
+				"GameMode"
+			],
+			[
+				"Gma",
+				"GameMode"
+			],
+			[
+				"SQL",
+				"SQLError"
+			],
+			[
+				"err",
+				"errorList"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"input",
+				"input_field"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"fetc",
+				"fetchingQuery"
+			],
+			[
+				"para",
+				"parameters"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"call_",
+				"call_user_func_array"
+			],
+			[
+				"exe",
+				"executeQuery"
+			],
+			[
+				"row",
+				"rowHTML"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"lin",
+				"link"
+			],
+			[
+				"link",
+				"linkData"
+			],
+			[
+				"border-",
+				"border-spacing"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jey/repos/UnityTools/Assets/anima.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/Weapons/LaserWeapon.cs",
+		"/C/Users/Jey/repos/Battle of Sector 52.0.103/Assets/BattleSector/Mechanics/Ship/ShipRotation.cs",
+		"/C/Users/Jey/repos/IndiesVsPewdiepie/Assets/Scripts/PointForwardBasedOn.cs",
+		"/C/Users/Jey/repos/IndiesVsPewdiepie/Assets/Scripts/JumpScript.cs",
+		"/C/Users/Jey/Desktop/Indie Vs Pewdiepie/Assets/Scripts/BrokenRopeScript.cs",
+		"/C/Users/Jey/Desktop/Indie Vs Pewdiepie/Assets/Scripts/Subject.cs",
+		"/C/Users/Jey/repos/IndiesVsPewdiepie/Assets/asd/Scientist.fbx",
+		"/C/Users/Jey/repos/IndiesVsPewdiepie/Assets/Scripts/Rotator.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/Scripts/Rotator.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Ideas.txt",
+		"/C/Users/Jey/Desktop/Things to do.txt",
+		"/C/Users/Jey/Desktop/indiesvspewdiepie.txt",
+		"/C/Users/Jey/Desktop/Kongpanion RPG.txt",
+		"/C/Users/Jey/Desktop/New Text Document.txt",
+		"/C/Users/Jey/Desktop/indiesvspewdiepie",
+		"/C/Users/Jey/repos/Advent Calendar Idle/src/com/bit101/components/List.as",
+		"/C/Users/Jey/repos/Advent Calendar Idle/src/idleEngine/IdleEngine.as",
+		"/C/Users/Jey/repos/Advent Calendar Idle/src/idleEngine/Item.as",
+		"/C/Users/Jey/repos/Kong Castle Wars/Assets/Kong Castle Wars/Scripts/Targetting.cs",
+		"/C/Users/Jey/repos/Kong Castle Wars/Assets/Kong Castle Wars/Scripts/Player.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/3D Imports/Bosses/Boss_1.fbx",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/3D Imports/Bosses/Boss_2_AnimationTest.fbx",
+		"/C/Users/Jey/repos/IndiesVsPewdiepie/Assets/JumpScript.cs",
+		"/C/Users/Jey/Dropbox/ArchivedGames/Game Ideas.txt",
+		"/C/Users/Jey/Dropbox/Intro text.txt",
+		"/C/Users/Jey/Dropbox/STORY CREATION.txt",
+		"/C/Users/Jey/Dropbox/_bucketList/Things to eat.txt",
+		"/C/Users/Jey/Dropbox/performance.txt",
+		"/C/Users/Jey/Dropbox/Gachi/TamagotchiGame.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/Scripts/ActivateArea.cs",
+		"/C/Users/Jey/Dropbox/Gachi/TamagotchiGameLogs.txt",
+		"/C/Users/Jey/repos/Advent Calendar Idle/lib/data/data.json",
+		"/C/Users/Jey/repos/Advent Calendar Idle/lib/data/containerUI.xml",
+		"/C/Users/Jey/repos/Advent Calendar Idle/lib/data/iterativeUI.xml",
+		"/C/Users/Jey/repos/Advent Calendar Idle/lib/data/baseUI.xml",
+		"/C/Users/Jey/Dropbox/Levian/src/levian/benchmark/Speedometer.as",
+		"/C/Users/Jey/Desktop/d3.txt",
+		"/C/Users/Jey/Dropbox/Slim'argeddon/src/PreLoader.as",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/Scripts/AI.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/Scripts/ShipMovement.cs",
+		"/C/Users/Jey/repos/Advent Calendar Idle/lib/data/iterativeUI",
+		"/C/Users/Jey/repos/Mafia/Assets/Scripts/Casino/Cards/CardDeck.cs",
+		"/C/Users/Jey/repos/Mafia/Assets/Scripts/Casino/Cards/Card.cs",
+		"/C/Users/Jey/repos/Gatchi/Assets/KewryEngine/TerribleStuff/Casino/Slots/SlotMachine.cs",
+		"/C/Users/Jey/repos/death/src/maps/ProtoHouse.as",
+		"/C/Users/Jey/Desktop/TamagotchiGameLogs",
+		"/C/Users/Jey/Desktop/TamagotchiGame",
+		"/C/Users/Jey/Dropbox/Public/FeelingsEvilReiterate.txt",
+		"/C/Users/Jey/Dropbox/Public/FeelingsEvilReiterate",
+		"/C/Users/Jey/repos/UnityTools/Assets/Scripts/plugins/GameData.cs",
+		"/C/Users/Jey/Desktop/lltqGuide.txt",
+		"/C/Users/Jey/repos/Mafia/Assets/Scripts/Plugins/SimpleJSON.cs",
+		"/C/Users/Jey/repos/Kongpanions Idler/Assets/Kongregate/Scripts/KongAPI.cs",
+		"/C/Users/Jey/repos/Raisin' Dragons/Assets/Incremental Engine/Scripts/BTKEngine.cs",
+		"/C/Users/Jey/Desktop/website.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/Scripts/GameLD30.cs",
+		"/C/Users/Jey/Desktop/TubeStar/Readme.txt",
+		"/C/Users/Jey/Desktop/TubeStar/Mods/Custom Language/Default.xml",
+		"/C/Users/Jey/Desktop/TubeStar/Mods/Custom TopTubeStars/Default.xml",
+		"/C/Users/Jey/Desktop/TubeStar/Mods/Custom TopTubeStars/Sample.xml",
+		"/C/Users/Jey/Desktop/downloads/Finished/Violated Hero 2/Violated Hero 2/readme.txt",
+		"/C/Users/Jey/Desktop/downloads/Finished/Succubus Quest/DeathMarine.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/Scripts/Upgrades/UpgradesGUI.cs",
+		"/C/Users/Jey/Desktop/88-C# Editor-NewEditor.cs.cs",
+		"/C/Program Files (x86)/Unity/Editor/Data/Resources/ScriptTemplates/81-C# Script-NewBehaviourScript.cs.txt",
+		"/C/Users/Jey/Desktop/86-C# Class-NewBehaviourClass.cs.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/Shoot'em'up/Editor/AIEditor.cs",
+		"/C/Users/Jey/repos/WeekendChallenge 20-8-2014/Assets/FPS/Scripts/FPSController.cs",
+		"/C/Users/Jey/repos/WeekendChallenge 20-8-2014/Assets/TPS/Scripts/TPSController.cs",
+		"/C/Users/Jey/repos/WeekendChallenge 20-8-2014/Assets/TPSController/Scripts/TPSController.cs",
+		"/C/Users/Jey/Desktop/downloads/Finished/Mass Effect 1 - ViTALiTY 2008 + DLC's All Info-Fixes-Extras/!!!!!!!READ ME 1ST INSTALL INSTRUCTIONS!!!!!!.txt",
+		"/C/Users/Jey/Desktop/downloads/Finished/Mass Effect 1 - ViTALiTY 2008 + DLC's All Info-Fixes-Extras/Z-Cheats-Walkthrough-Trouble Shooting-Extras/To fix missing lava textures on Therum.txt",
+		"/C/Users/Jey/Desktop/downloads/Finished/Mass Effect 1 - ViTALiTY 2008 + DLC's All Info-Fixes-Extras/Mass Effect DLC Pack's/READ ME!!!!!!!.txt",
+		"/C/Users/Jey/Desktop/google_5000000.txt",
+		"/C/Users/Jey/Desktop/Which/Readme.txt",
+		"/C/Users/Jey/Desktop/Gifs/_GIGS.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/Resources/Data/1.txt",
+		"/C/Program Files (x86)/Unity/Editor/Data/Resources/BuildVerification.xml",
+		"/C/Program Files (x86)/Unity/Editor/Data/Resources/BeastSettings.xml",
+		"/C/Program Files (x86)/Unity/Editor/Data/Resources/TreeEditor_UI_Strings_EN.txt",
+		"/C/Users/Jey/Dropbox/Public/I don't believe games cause individuals to act in.txt",
+		"/C/Program Files (x86)/Unity/Editor/Data/Resources/UI_Strings_EN.txt",
+		"/C/Users/Jey/Desktop/85-C# Script-NewEmptyClass.cs.txt",
+		"/C/Users/Jey/AppData/Local/Temp/Rar$DIa0.998/READ THIS FAGGOT.txt",
+		"/C/Users/Jey/Desktop/I don't believe games cause individuals to act in.txt",
+		"/C/Users/Jey/Desktop/I don't believe games cause individuals to act in",
+		"/C/Users/Jey/repos/UnityTools/Assets/LD30/Scripts/Menu.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/PG/PGCity.cs",
+		"/C/Users/Jey/Desktop/ChompiConvos.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/Parallax.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Scripts/plugins/StickToTransform.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Scripts/Visual Novel/DisplayEditor/VNDisplayEditor.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Scripts/Visual Novel/TextEditor/VNEditor.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Scripts/Visual Novel/DisplayEditor/VNCharacterEditor.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Scripts/Visual Novel/Text/VNTextDisplayer.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Resources/Data/story.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/Resources/Data/gui.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/Scripts/plugins/Extensions.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/plugins/JSON/JSONLoader.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Visual Novel/DisplayEditor/VNDisplayEditor.cs",
+		"/C/Users/Jey/Desktop/downloads/To Read.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/plugins/CinematicCamera.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Visual Novel/TextEditor/VNMessage.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Visual Novel/TextEditor/VNEditor.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/plugins/GameData.cs",
+		"/C/Users/Jey/Desktop/downloads/Finished/X-Change/X-Change c.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/Visual Novel/TextEditor/VNNode.cs",
+		"/C/Users/Jey/repos/UnityTools/Assets/Visual Novel/Ideas.txt",
+		"/C/Users/Jey/repos/UnityTools/Assets/Visual Novel/Text/VNGUI.cs",
+		"/C/Users/Jey/AppData/Local/Temp/Rar$DIa0.117/readme.txt",
+		"/C/Users/Jey/Desktop/downloads/Finished/X-Change/X-Change b.txt",
+		"/C/Users/Jey/Desktop/downloads/Finished/X-Change/X-Change a.txt",
+		"/C/Users/Jey/repos/BeatThatKongpanion/Assets/BeatThatKongpanion/Scripts/BTKArea.cs",
+		"/C/Users/Jey/repos/Mafia/Assets/Resources/data/data.txt",
+		"/C/Users/Jey/repos/3D Tetris/Assets/Scripts/TetrisEngine.cs",
+		"/C/Users/Jey/repos/Mafia/Assets/Scripts/Casino/Cards/Blackjack.cs",
+		"/C/Users/Jey/Desktop/g/Assets/Scripts/Plugins/TextLog.cs",
+		"/C/Users/Jey/Desktop/VANISH_WinRC.1/readme.txt",
+		"/C/Users/Jey/Desktop/GIGS.txt",
+		"/C/Users/Jey/Desktop/g/Assets/Scripts/GlobalPaths.cs",
+		"/C/Users/Jey/repos/Battle of Sector 52.0.103/Assets/BattleSector/Mechanics/Ship/SpaceShip.cs",
+		"/C/Users/Jey/Desktop/New Unity Project 2/Assets/Scripts/GameObjects/Player/PlayerBase.cs",
+		"/C/Users/Jey/repos/3D Tetris/Assets/Scripts/Piece.cs",
+		"/C/Users/Jey/repos/Mafia/Assets/Scripts/IGUIBuyable.cs",
+		"/C/Users/Jey/repos/Mafia/Assets/Scripts/Plugins/GUIUtilities.cs",
+		"/C/Users/Jey/Desktop/Soos_/Assets/Game/Scripts/Player.cs",
+		"/C/Users/Jey/Desktop/Soos_/Assets/Scripts/DisplayMode.cs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"window",
+			"var",
+			"addItem",
+			" (reply)",
+			" [PM]",
+			" [PM to SpareMyReality] ",
+			" [PM]",
+			" [PM to SpareMyReality] ",
+			" (reply)",
+			"kate.switch",
+			"switch",
+			"84",
+			"youtuber",
+			"she",
+			"he",
+			"13 of Diamonds",
+			"12 of Diamonds",
+			"1 of Diamonds",
+			"13 of Spades___1 of Diamonds",
+			"13 of Spades",
+			"_10 ",
+			"_13 ",
+			"_12 ",
+			"_1 ",
+			"1",
+			"8",
+			"Updata",
+			"comment",
+			"clickCount",
+			"kong",
+			"Guima",
+			"Tuk",
+			"me>Mountain",
+			"me>Forest",
+			"e>Island",
+			">Swamp",
+			"Swamp",
+			"prahv",
+			"points",
+			"mew",
+			"10000",
+			"you",
+			"=",
+			"lastset",
+			":: Do noth",
+			"<<end>>",
+			"take another",
+			"lastSet",
+			"lastset",
+			"lastSet",
+			"take ano",
+			" = ",
+			"last ",
+			"!",
+			"=",
+			"GSLS",
+			"Winning",
+			"Winnings",
+			"Loses",
+			"”",
+			"“",
+			"deleteProductByID",
+			"input",
+			"float_l",
+			".input_field",
+			".submit_btn",
+			"form",
+			"$link",
+			"echo",
+			"$title",
+			"print_r",
+			"isValid()",
+			"<br>",
+			"templatemo_body",
+			"$link",
+			"$linkSet",
+			"7d7e7d",
+			"45484d",
+			"7db9e8",
+			"1e5799",
+			".CSSTableGenerator"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"lastset",
+			" ",
+			"Earn",
+			"Winning",
+			"Loss",
+			"\"",
+			"$header",
+			"ADAEAD",
+			"7d7e7d",
+			"45484d",
+			"2f2f2f",
+			".gridview"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "st2.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 160.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

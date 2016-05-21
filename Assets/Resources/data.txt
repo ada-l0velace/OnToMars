@@ -1,0 +1,344 @@
+﻿{
+  "upgradesDA": [
+    250,
+    155,
+    310,
+    230
+  ],
+  "resources": [
+    {
+      "name": "Money",
+      "description": "Money",
+      "link": "Energy",
+	  "symbol":"$",
+	  "victory":500001,
+      "button": [
+        350,
+        90
+      ],
+      "boosters": [
+        {
+          "name": "Lemonade",
+          "description": "If life gives you lemons, make lemonade!",
+          "cost": 15,
+          "vps": 0.6,
+          "dps": 0.8
+        },
+        {
+          "name": "Mineralz",
+          "description": "Blue, Green, Red, Plasma",
+          "cost": 120,
+          "vps": 3,
+          "dps": 1.8
+        },
+        {
+          "name": "Milk Factory",
+          "description": "Babies, babies everywhere!",
+          "cost": 430,
+          "vps": 56,
+          "dps": 38
+        },
+        {
+          "name": "Computers",
+          "description": "Man is still the most extraordinary computer of all.",
+          "cost": 4000,
+          "vps": 424,
+          "dps": 356
+        },
+        {
+          "name": "RoboMaid",
+          "description": "These VI will cut your chores down to 1%!",
+          "cost": 24000,
+          "vps": 1024,
+          "dps": 848
+        }
+      ]
+    },
+    {
+      "name": "Farm",
+      "description": "Biomatter",
+      "link": "Money",
+	  "symbol":"ｱ",
+	  "victory":200001,
+      "button": [
+        560,
+        215
+      ],
+      "boosters": [
+        {
+          "name": "Lemon",
+          "description": "Life keeps on giving lemons...",
+          "cost": 50,
+          "vps": 1,
+          "dps": 0.6
+        },
+        {
+          "name": "Cows",
+          "description": "Milk needs to come from somewhere.",
+          "cost": 300,
+          "vps": 7,
+          "dps": 6
+        },
+        {
+          "name": "Greenhouse",
+          "description": "May or may not be legal.",
+          "cost": 2000,
+          "vps": 90,
+          "dps": 68
+        },
+        {
+          "name": "Automation",
+          "description": "Some VI to cut the heavy work!",
+          "cost": 10000,
+          "vps": 512,
+          "dps": 332
+        },
+        {
+          "name": "Plankton",
+          "description": "Infused with nanobots.",
+          "cost": 100052,
+          "vps": 3210,
+          "dps": 2210
+        }
+      ]
+    },
+    {
+      "name": "Babies",
+      "description": "Population",
+      "link": "Farm",
+	  "symbol":"þ",
+	  "victory":7778,
+      "button": [
+        350,
+        390
+      ],
+      "boosters": [
+        {
+          "name": "Maternity",
+          "description": "Boom, goes the dynamite.",
+          "cost": 100,
+          "vps": 1,
+          "dps": 1.2
+        },
+        {
+          "name": "Child Benefit",
+          "description": "Let's get booooming!",
+          "cost": 500,
+          "vps": 3,
+          "dps": 3.4
+        },
+        {
+          "name": "Doppelganger",
+          "description": "Doubles make for troubles.",
+          "cost": 3500,
+          "vps": 33,
+          "dps": 40
+        },
+        {
+          "name": "Clone",
+          "description": "Wait.. is this ok?",
+          "cost": 15000,
+          "vps": 310,
+          "dps": 360
+        },
+        {
+          "name": "Zombify",
+          "description": "Braaaaains....",
+          "cost": 75000,
+          "vps": 1648,
+          "dps": 2012
+        }
+      ]
+    },
+    {
+      "name": "Energy",
+      "description": "Technology",
+      "link": "Babies",
+	  "symbol":"ｷ",
+	  "victory":500000,
+      "button": [
+        150,
+        215
+      ],
+      "boosters": [
+        {
+          "name": "Electricity",
+          "description": "Knowledge is power.",
+          "cost": 200,
+          "vps": 2.8,
+          "dps": 1
+        },
+        {
+          "name": "Circuits",
+          "description": "In any electrical circuit, appliances and wiring will burn out to protect fuses.",
+          "cost": 600,
+          "vps": 15,
+          "dps": 7.5
+        },
+        {
+          "name": "Nanotechnology",
+          "description": "Smaller is better.",
+          "cost": 4000,
+          "vps": 62.3,
+          "dps": 42
+        },
+        {
+          "name": "AI",
+          "description": "Cabal would be proud.",
+          "cost": 20000,
+          "vps": 2048,
+          "dps": 1400
+        },
+        {
+          "name": "Cyborg",
+          "description": "We clone them and then we implant them.",
+          "cost": 150000,
+          "vps": 8684,
+          "dps": 5848
+        }
+      ]
+    }
+  ],
+  "loseConditions": [
+    {
+      "name": "Happiness",
+      "mustHave": "Money",
+      "dropRate":1
+    },
+    {
+      "name": "Starvation",
+      "mustHave": "Biomatter",
+      "raising": "Population",
+      "dropRate":1
+    }
+  ],
+  "arrows": [
+	[191.64, 65.19, 128, 128],
+	[491.53, 65, 128, 128],
+	[499.1, 313.16, 128, 128],
+	[189.5, 316.82, 128, 128]
+  ],
+  "news":
+  [
+	{
+		"type":"hasBooster",
+		"resource":"Money",
+		"booster":"Lemonade",
+		"text":"Thristy? Have a Lemonade!"
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Money",
+		"booster":"Mineralz",
+		"text":"A probe has found interesting new mineralz."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Money",
+		"booster":"Milk Factory",
+		"text":"Demand for milk increasing exponentially."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Money",
+		"booster":"Computers",
+		"text":"Harder, Better, Faster, Stronger computers."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Money",
+		"booster":"RoboMaid",
+		"text":"Japan did it again with the all new RoboMaid!"
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Farm",
+		"booster":"Cows",
+		"text":"Discussing cow cloning..."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Farm",
+		"booster":"Greenhouse",
+		"text":"NASA spokesperson caught in illegal greenhouse says: 'For the future of humanity'"
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Farm",
+		"booster":"Plankton",
+		"text":"Farms appear from nothing during the night. Plankton infused with nanobots believed cause."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Babies",
+		"booster":"Maternity",
+		"text":"Governments call for an age of baby boomers."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Babies",
+		"booster":"Child Benefit",
+		"text":"Governments throw more money at baby boomers."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Babies",
+		"booster":"Doppelganger",
+		"text":"Rate of twins and triplets rising."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Babies",
+		"booster":"Clone",
+		"text":"Number of 'cousins' rises. Unrest as rumors of human cloning appear."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Babies",
+		"booster":"Zombify",
+		"text":"Umbrella rises to power saying 'No one needs to die, be undead.'"
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Babies",
+		"booster":"Zombify",
+		"text":"Umbrella rises to power saying 'No one needs to die, be undead.'"
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Energy",
+		"booster":"Electricity",
+		"text":"Talks over unlimited power..."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Energy",
+		"booster":"Electricity",
+		"text":"Talks over unlimited power..."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Energy",
+		"booster":"Circuits",
+		"text":"If you need something done, call an electrician – they conduit."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Energy",
+		"booster":"Nanotechnology",
+		"text":"Nanotechnology, smaller for a bigger future."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Energy",
+		"booster":"AI",
+		"text":"A rogue AI spreads through the web. Hysteria arrives."
+	},
+	{
+		"type":"hasBooster",
+		"resource":"Energy",
+		"booster":"Cyborg",
+		"text":"Rogue AI takes control of human kind, calls us new species 'Cybortron'"
+	}
+  ]
+}
