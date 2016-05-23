@@ -1,5 +1,6 @@
 ﻿namespace MiniLD53 {
     using System.Collections;
+	using SimpleJSON;
 
     public class NewsCondition {
 
@@ -9,6 +10,21 @@
         internal int status = 0;
         internal ConditionType type;
 
+
+		public NewsCondition() : base() {
+			/*Empty*/
+		}
+
+		public NewsCondition(JSONNode item) : this() {
+			switch (item["type"]) {
+				case "hasBooster":
+					type = ConditionType.hasBooster;
+					resourceName = item["resource"];
+					boosterName = item["booster"];
+					text = item["text"];
+					break;
+			}
+		}
         internal void update() {
             switch (type) {
                 case ConditionType.hasBooster:
@@ -28,3 +44,4 @@
 
 
 } //namespace
+

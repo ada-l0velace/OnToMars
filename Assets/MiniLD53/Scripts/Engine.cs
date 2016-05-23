@@ -12,8 +12,9 @@
         internal static NewsReport report;
         internal GameData GameData = new GameData();
 
-        internal List<Resource> resources = new List<Resource>();
-        internal Resource lastHovered;
+		internal List<Resource> resources = new List<Resource>();
+        
+		internal Resource lastHovered;
         internal Rect upgradesDrawArea;
         internal List<Rect> arrows = new List<Rect>();
         public List<Texture2D> arrowsGfx;
@@ -30,8 +31,7 @@
         internal float saveTimer = 0f;
 
         internal long clickCount = 0;
-
-        internal int konamiCode = 0;
+		internal int konamiCode = 0;
         internal List<KeyCode> konamiCodeKey = new List<KeyCode>() { KeyCode.UpArrow, KeyCode.UpArrow, KeyCode.DownArrow, KeyCode.DownArrow, KeyCode.LeftArrow, KeyCode.RightArrow, KeyCode.LeftArrow, KeyCode.RightArrow, KeyCode.A, KeyCode.B };
         
         internal Dictionary<string, Rect> resourceRects = new Dictionary<string,Rect>();
@@ -95,24 +95,16 @@
             GameData.loseConditions = loseConditions;
         }
 
-        private void loadNews(JSONNode h) {
+		public void loadNews(JSONNode h) {
             report = GetComponent<NewsReport>();
             NewsCondition cond;
             foreach (JSONNode item in h.Childs) {
-                cond = new NewsCondition();
-                switch (item["type"]) {
-                    case "hasBooster":
-                        cond.type = ConditionType.hasBooster;
-                        cond.resourceName = item["resource"];
-                        cond.boosterName = item["booster"];
-                        cond.text = item["text"];
-                        break;
-                }
+                cond = new NewsCondition(item);
                 report.reports.Add(cond);
             }
         }
 
-        private void loadArrows(JSONNode h) {
+		public void loadArrows(JSONNode h) {
             foreach (JSONNode item in h.Childs) {
                 arrows.Add(new Rect(
                     item[0].AsFloat, item[1].AsFloat,
@@ -121,28 +113,19 @@
             }
         }
 
-        private void loadLoseConditions(JSONNode h) {
+		public void loadLoseConditions(JSONNode h) {
             LoseCondition lc;
             foreach (JSONNode item in h.Childs) {
-                lc = new LoseCondition();
-                lc.name = item["name"].Value;
-                lc.dropRate = item["dropRate"].AsFloat;
-                lc.currentRate = 100.0f;
-                lc.mustHaveText = item["mustHave"].Value;
-                lc.mustHave = findResource(lc.mustHaveText);
-                if (item["raising"] != null) {
-                    lc.raisingText = item["raising"].Value;
-                    lc.raising = findResource(lc.raisingText);
-                }
+				lc = new LoseCondition(item);
                 loseConditions.Add(lc);
             }
         }
 
-        private Resource findResource(string name) {
+		public Resource findResource(string name) {
             return resources.Find(x => x.Name == name || x.Description == name);
         }
 
-        private Rect createRect(JSONNode data) {
+		public Rect createRect(JSONNode data) {
             return new Rect(data[0].AsFloat, data[1].AsFloat,
                     CLICK_BUTTON_WIDTH, CLICK_BUTTON_HEIGHT);
         }
@@ -217,7 +200,7 @@
 
 
         #region Lose Conditions
-        private void updateLoseCondition() {
+		public void updateLoseCondition() {
             Resource r;
             foreach (LoseCondition item in loseConditions) {
                 //test for raising values
@@ -249,7 +232,7 @@
             }
         }
 
-        private void loseConditionGUI() {
+		public void loseConditionGUI() {
             GUI.Box(new Rect(655, 69, 141, loseConditions.Count * 36), "");
             Texture2D h;
             for (int i = 0; i < loseConditions.Count; i++) {
@@ -266,7 +249,7 @@
         #endregion
 
         #region Win Conditions
-        private void updateWinCondition() {
+		public void updateWinCondition() {
             foreach (Resource item in resources) 
                 if (item.Total < item.Victory)
                     return;
@@ -275,7 +258,7 @@
             GameOver.gameOver("You have enough resources, knowledge and money to head on to Mars.\nWhat are you waiting for?\nGo!");
         }
 
-        private void winConditionGUI() {
+		public void winConditionGUI() {
             string s = "Resources left to head onto Mars\n";
             for (int i = 0; i < resources.Count; i++) 
                 s += resources[i].ToVictoryGUI();
